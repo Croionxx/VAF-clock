@@ -30,7 +30,7 @@ By tracing the connections with a multimeter in continuity mode, I mapped the pi
 
 The schematic below illustrates how the ESP32 interfaces with the 74LS145 and the display segments.
 
-![Schematic](images/schematic.png)
+![Schematic](images/Schematic.png)
 **General Pin Mapping Strategy:**
 1. **Segments**: Connected directly to ESP32 GPIOs (via current limiting resistors).
 2. **Digit Select**: 4 GPIOs from ESP32 connected to the ABCD inputs of the 74LS145.
